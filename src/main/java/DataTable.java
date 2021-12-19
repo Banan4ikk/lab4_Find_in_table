@@ -40,7 +40,7 @@ public class DataTable {
         if (filtered.size() != 0) {
             System.out.println(filtered);
         }else {
-            System.out.println("Слово " + patternWord + " не найдено");
+            System.out.println("Слово " + patternWord + " не найдено ни в одной строке");
         }
     }
 
